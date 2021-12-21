@@ -2,6 +2,9 @@
 
 //you can check the transaction on etherscan --> rinkeby.etherscan.io
 
+
+//REMEMBER TO SAVE THE MODULE DROP ADDRESS THAT WILL BE CONSOLE LOGGED IN AN ENV VARIABLE
+
 import { ethers } from "ethers";
 import sdk from "./1-initialize-sdk.js";
 import { readFileSync } from "fs";
