@@ -1,6 +1,5 @@
 import { ThirdwebSDK } from "@3rdweb/sdk";
 import ethers from "ethers";
-
 import dotenv from "dotenv";
 dotenv.config();
 
