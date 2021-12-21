@@ -5,15 +5,15 @@ dotenv.config();
 
 
 //basic checks to see if dotenv working as expected
-if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
+if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY === "") {
   console.log("🛑 Private key not found.");
 }
 
-if (!process.env.ALCHEMY_API_URL || process.env.ALCHEMY_API_URL == "") {
+if (!process.env.ALCHEMY_API_URL || process.env.ALCHEMY_API_URL === "") {
   console.log("🛑 Alchemy API URL not found.");
 }
 
-if (!process.env.WALLET_ADDRESS || process.env.WALLET_ADDRESS == "") {
+if (!process.env.WALLET_ADDRESS || process.env.WALLET_ADDRESS === "") {
   console.log("🛑 Wallet Address not found.");
 }
 
