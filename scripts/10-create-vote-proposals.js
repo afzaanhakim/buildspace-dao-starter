@@ -11,7 +11,7 @@ const tokenModule = sdk.getTokenModule(process.env.TOKEN_MODULE_ADDRESS);
   try {
     const amount = 250_000; //proposal to mint 250_000 new tokens to treasury
     await voteModule.propose(
-      "Should RecipeDAO mint an additional" + amount + "tokens to the treasury",
+      "Should RecipeDAO mint an additional " + amount + " tokens to the treasury",
       [
         {
           //NATIVETOKEN VALUE IS IN ETH, it is the amount we want to send in tis proposal. I will be sending 0 in this case
