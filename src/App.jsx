@@ -168,7 +168,7 @@ const App = () => {
         setIsClaiming(false); //setLoadingState
         setHasClaimedNFT(true); //setClaimed state
         //see their new NFT
-        console.log(
+        alert(
           `🌊 Successfully Minted! Check it out on OpenSea: https://testnets.opensea.io/assets/${bundleDropModule.address}/0`
         );
       });
