@@ -144,6 +144,18 @@ const App = () => {
       });
   }, [address]);
 
+  if (error && error.name === "UnsupportedChainIdError") {
+    return (
+      <div className="unsupported-network">
+        <h2>Please connect to Rinkeby 👻</h2>
+        <p>
+          This dapp only works on the Rinkeby network, please switch networks
+          in your connected wallet. (Metamask). <br /> If you don't have metamask you can get it <a href="https://metamask.io/download" target="_blank" rel="noreferrer">here</a>.
+        </p>
+      </div>
+    );
+  }
+
   const mintNft = () => {
     setIsClaiming(true);
     bundleDropModule
@@ -176,8 +188,12 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>🍪RecipeDAO Foodie Lounge</h1>
-        <p>Congratulations on being a foodie!</p>
+        <h1>RecipeDAO Foodie Lounge</h1>
+        <h3>🎊 Congratulations on becoming a foodie! 🎊</h3>
+        <section className="official-token">
+        <h2>Our official token is $KHANA.</h2> <br/>
+        <p> There are total of 2,000,000 $KHANA in Supply.</p> <br></br><button className="khana"><a href="https://rinkeby.etherscan.io/token/0x84d0d62c61fb1d06758c1bb238c0088f1aa20656?a=0x642e757644a8870A952f8e543d1dFFe22D31573A" target="_blank" rel="noreferrer">Checkout $KHANA on Etherscan</a></button> 
+        </section>
         <div>
           <div>
             <h2>Foodie List</h2>

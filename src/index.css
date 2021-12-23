@@ -1,12 +1,13 @@
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: raleway;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #050000;
   color: #fff;
   overflow-x: hidden;
+  background-image: url("https://imgr.search.brave.com/aLI5nYRcs0MzUWys-DoDDhnPfn7014PTgk24qL9Wlno/fit/1200/1080/ce/1/aHR0cHM6Ly93YWxs/cGFwZXJzZXQuY29t/L3cvZnVsbC81L2Qv/MC81NTA0My5qcGc");
 }
 #root {
   min-height: 100vh;
@@ -63,12 +64,15 @@ h1 {
   width: 100%;
   text-align: left;
   gap: 2rem;
+  background: -webkit-linear-gradient(left, #0e9c39, #d707f3);
+  
 }
 .member-page > div > div {
   display: flex;
   flex-direction: column;
   width: 50%;
   gap: 1rem;
+  margin: 1em;
 }
 @media screen and (max-width: 768px) {
   .member-page > div {
@@ -93,33 +97,77 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: rgb(253, 253, 253);
 }
 
 .member-page form .card > div {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
+  color: rgb(227, 215, 230);
+  font-weight: bolder;
 }
 
 .member-page form small {
   text-align: center;
 }
 
+.member-page h1 {
+  background-color: black;
+  border-radius: 1%;
+  white-space: nowrap;
+  font-size: 4em;
+}
+
+.official-token {
+  padding-left: 5px;
+  background: -webkit-linear-gradient(left, #0e9c39, #d707f3);
+}
+
+.official-token p {
+  margin-bottom: 3px;
+}
+.official-token h2 {
+  margin-bottom: 1px;
+}
+.member-page h2 {
+  border-radius: 1%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.official-token a {
+  color: rgb(255, 247, 247);
+  text-decoration: none;
+}
+
+.member-page h3 {
+  font-weight: bolder;
+  background-color: rgb(0, 0, 0);
+  padding: 1%;
+  width: 50%;
+  margin-left: 25%;
+  color: rgb(217, 0, 255);
+}
+.unsupported-network {
+  background: -webkit-linear-gradient(left, #e20303, #1cb836);
+  font-weight: bolder;
+  border-radius: 20px;
+}
 .card {
-  background-color: #fff;
+  background-color: rgb(8, 5, 5);
   padding: 1rem;
   border-radius: 1rem;
-  color: #000;
+  color: rgb(255, 255, 255);
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background: -webkit-linear-gradient(right, #e75a5ab7, #0f014de1);
+  color: rgb(255, 247, 247);
   border: none;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: inherit;
   padding: 1.2rem 2rem;
   text-transform: uppercase;
