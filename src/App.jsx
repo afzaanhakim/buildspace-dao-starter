@@ -201,7 +201,7 @@ const App = () => {
               <thead>
                 <tr>
                   <th>Address</th>
-                  <th>Token Amount</th>
+                  <th>$KHANA Amount</th>
                 </tr>
               </thead>
               <tbody>
