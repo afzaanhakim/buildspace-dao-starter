@@ -142,7 +142,7 @@ const App = () => {
         setHasClaimedNFT(false);
         console.error("failed to nft balance", error);
       });
-  }, [address]);
+  }, [address, error]);
 
   if (error && error.name === "UnsupportedChainIdError") {
     return (
