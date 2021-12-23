@@ -1,8 +1,10 @@
 # RecipeDAO
-
-
-
-
+- Click [here](https://recipedao.vercel.app/) to become a member of RecipeDAO!
+- RecipeDAO is a fun project where I am aiming to build a decentralized organization on the blockchain!
+- The official token of RecipeDAO is $KHANA. There is a total of 2,000,000 $KHANA in supply
+- To become a member of RecipeDAO you would need to mint a RecipeDAO MembershipNFT
+- Ensure you have a metamask wallet [download-metamask](https://metamask.io/download) and are connected to the Rinkeby network
+ 
 
 ## ThirdWEB
 - Create an account and use Rinkeby Network to create a project
